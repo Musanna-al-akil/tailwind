@@ -447,6 +447,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -479,6 +491,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .bg-white {
